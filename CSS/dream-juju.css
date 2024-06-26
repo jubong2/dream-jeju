@@ -1,0 +1,157 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.warp {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 헤더 */
+.header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: rgb(77, 163, 243);
+}
+
+.header h1 {
+  font-size: 40px;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  color: white;
+}
+
+nav {
+  width: 900px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.header-menu ul {
+  color: white;
+  width: 800px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgb(25, 0, 255); */
+}
+
+.header-menu ul li {
+  width: calc(100% / 4);
+  float: left;
+}
+
+.main-img {
+  width: 100%;
+  height: 300px;
+}
+
+.main-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* 본문 */
+
+.contents {
+  width: 100%;
+  height: 300px;
+  /* background-color: aquamarine; */
+}
+.notic {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.notic h3 {
+  background-color: rgb(207, 207, 207);
+  display: inline;
+  border: 1px solid rgb(219, 219, 219);
+  color: rgb(121, 26, 26);
+  padding: 3px 5px;
+}
+.notic > ul {
+  margin-top: 30px;
+}
+.notic > ul > li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.gallery {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gallery ul {
+  margin-top: 50px;
+}
+
+.gallery img {
+  border-radius: 50%;
+}
+
+.gallery li {
+  width: calc(100% / 3);
+  float: left;
+}
+
+.gallery span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* 하단 */
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid black;
+}
+
+.footer-left {
+  float: left;
+  margin-top: 10px;
+}
+
+.footer-left li {
+  float: left;
+  border: 1px solid rgb(97, 97, 97);
+  padding: 5px 10px;
+}
+.footer-left p {
+  display: block;
+  opacity: 0.5;
+  margin-top: 50px;
+}
+
+.footer-left li:first-child {
+  border-left: none;
+}
+
+.footer-left li:last-child {
+  border-right: none;
+}
+
+.footer-right li {
+  float: right;
+  padding: 5px 10px;
+}
